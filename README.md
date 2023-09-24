@@ -67,8 +67,32 @@ Two algorithms are used to get the top 5 suggested friends:
 Example Output:
 ```json
 {
-  "suggested_friends_previous": [...],
-  "suggested_friends_content_based": [...]
+  "suggested_friends_previous": [     {
+            "id": 225,
+            "name": "User 225",
+            "age": 47,
+            "interests": {
+                "drawing": 40,
+                "singing": 31,
+                "travelling": 91,
+                "cars": 74,
+                "music": 10,
+                "dancing": 88
+            },
+            "score": 253
+        },...],
+  "suggested_friends_content_based": ["id": 856,
+            "name": "User 856",
+            "age": 52,
+            "interests": {
+                "movies": 13,
+                "cars": 75,
+                "music": 11,
+                "travelling": 10,
+                "dancing": 55,
+                "computers": 71
+            },
+            "interests_text": "movies cars music travelling dancing computers"...]
 }
 ```
 ## Testing
