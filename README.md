@@ -1,9 +1,9 @@
 # ChatApp
 
 ## Getting Started
-1. Activate the Virtual Environment (Mac Command): source venv/bin activate
+1. Activate the Virtual Environment (Mac Command): $ source venv/bin activate
 
-2. Start the server: python manage.py runserver
+2. Start the server: $ python manage.py runserver
 
 
 ## API Endpoints
@@ -28,7 +28,7 @@
 
 ### Send a Message (WebSocket)
 - **WebSocket** `/api/chat/send/`
-Run this command to start real-time chatting: wscat -c "ws://127.0.0.1:8000/ws/chat/?token=logged_in_user_token"
+Run this command to start real-time chatting: $ wscat -c "ws://127.0.0.1:8000/ws/chat/?token=logged_in_user_token"
 
 
 And also, put JSON in one line when sending the message:
