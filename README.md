@@ -3,7 +3,7 @@
 ## Getting Started
 1. Activate the Virtual Environment (Mac Command): source venv/bin activate
 
-2. Start the server: python manage.py
+2. Start the server: python manage.py runserver
 
 
 ## API Endpoints
