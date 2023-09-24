@@ -74,6 +74,9 @@ Example Output:
 ## Testing
 
 ### RESTful API Testing
+ ```bash
+$ python manage.py test
+``` 
 
 I have thoroughly tested the following RESTful APIs:
 
