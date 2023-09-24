@@ -68,7 +68,8 @@ Example Output:
 ```json
 {
   "suggested_friends_using_first_algo": [     
-{
+
+        {
             "id": 225,
             "name": "User 225",
             "age": 47,
@@ -84,7 +85,9 @@ Example Output:
         },...
 ],
   "suggested_friends_using_second_algo": [
-{"id": 856,
+
+          {
+            "id": 856,
             "name": "User 856",
             "age": 52,
             "interests": {
@@ -96,8 +99,8 @@ Example Output:
                 "computers": 71
             },
             "interests_text": "movies cars music travelling dancing computers"
- 
-}...]
+          }...
+]
 ```
 ## Testing
 
