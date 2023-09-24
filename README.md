@@ -91,13 +91,9 @@ I have thoroughly tested the following RESTful APIs:
 
 ### WebSocket Real-Time Chatting
 
-- Testing WebSocket real-time chatting is crucial for ensuring a seamless chat experience.
-- However, due to the challenges associated with using the Channels library in Django, i encountered difficulties when implementing tests for this feature.
-- ChannelsLiveServerTestCase, which is typically used for testing WebSocket applications, can conflict with database operations.
+- Testing WebSocket real-time chat in Django, primarily using ChannelsLiveServerTestCase, can be complex due to potential conflicts with database operations.
 
-- While testing for WebSocket real-time chatting is not included in this project,
-- it is recommended to perform manual testing during development to verify the correctness and reliability of this critical feature.
-- You can use tools like `wscat` to establish WebSocket connections and simulate real-time messaging scenarios.
+- Although not covered by automated tests in this project, it is advisable to manually test WebSocket real-time chat during development using tools like `wscat` for simulating real-time messaging scenarios.
 
 
 
