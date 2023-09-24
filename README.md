@@ -70,3 +70,26 @@ Example Output:
   "suggested_friends_previous": [...],
   "suggested_friends_content_based": [...]
 }
+## Testing
+
+### RESTful API Testing
+
+I have thoroughly tested the following RESTful APIs:
+
+- **User Registration:** Testing user registration functionality to ensure that new users can create accounts successfully.
+
+- **User Login:** Verifying the user login process to ensure that registered users can log in securely.
+
+- **Get Online Users:** Testing the ability to retrieve a list of users who are currently online.
+
+- **Start a Chat:** Ensuring that users can initiate chat sessions with one another successfully.
+
+
+### WebSocket Real-Time Chatting
+
+Testing WebSocket real-time chatting is crucial for ensuring a seamless chat experience. However, due to the challenges associated with using the Channels library in Django, i encountered difficulties when implementing tests for this feature. ChannelsLiveServerTestCase, which is typically used for testing WebSocket applications, can conflict with database operations.
+
+While testing for WebSocket real-time chatting is not included in this project, it is recommended to perform manual testing during development to verify the correctness and reliability of this critical feature. You can use tools like `wscat` to establish WebSocket connections and simulate real-time messaging scenarios.
+
+
+
