@@ -84,4 +84,4 @@ class SuggestedFriendsView(generics.RetrieveAPIView):
         top5_recommended_friends_content_based = recommended_friends_content_based.head(5).to_dict('records')
 
 
-        return Response({'suggested_friends_previous': suggested_friends_previous, 'suggested_friends_content_based': top5_recommended_friends_content_based})
+        return Response({'suggested_friends_using_first_algo': suggested_friends_previous, 'suggested_friends_using_second_algo': top5_recommended_friends_content_based})
