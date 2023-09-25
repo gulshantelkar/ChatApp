@@ -4,9 +4,11 @@
 1. Activate the Virtual Environment (Mac Command):
  ```bash
 $ source venv/bin activate
-``` 
-
-3. Start the server:
+```
+ ```bash 
+pip install -r requirements.txt
+```
+2. Start the server:
 ```bash
 $ python manage.py runserver
 ```
